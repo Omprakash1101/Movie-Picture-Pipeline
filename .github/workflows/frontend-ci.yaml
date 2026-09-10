@@ -61,7 +61,3 @@ jobs:
           tags: mp-frontend:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
-        with:
-          context: starter/frontend
-          push: false
-          tags: mp-frontend:latest
