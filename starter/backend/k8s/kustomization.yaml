@@ -3,4 +3,9 @@ kind: Kustomization
 resources:
   - service.yaml
   - deployment.yaml
+
+images:
+  - name: backend
+    newName: 453722413028.dkr.ecr.us-east-1.amazonaws.com/backend
+    newTag: latest
 namespace: default
