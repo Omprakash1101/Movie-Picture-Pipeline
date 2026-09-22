@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "starter/frontend/**"
+      - ".github/actions/setup-frontend/**"
+      - ".github/workflows/frontend-cd.yaml"
+
 
   workflow_dispatch:
 
