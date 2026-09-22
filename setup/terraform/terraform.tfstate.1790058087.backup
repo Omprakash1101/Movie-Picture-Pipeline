@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.3.9",
-  "serial": 567,
+  "serial": 562,
   "lineage": "45a090d9-ce06-19f9-ae61-bcc202143668",
   "outputs": {
     "backend_ecr": {
@@ -331,25 +331,25 @@
               }
             ],
             "arn": "arn:aws:eks:us-east-1:453722413028:cluster/cluster",
-            "bootstrap_self_managed_addons": true,
+            "bootstrap_self_managed_addons": false,
             "certificate_authority": [
               {
-                "data": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURNVENDQWhtZ0F3SUJBZ0lRZFlQWXhPWDFDbkRTdWV3bHp6NEZwVEFOQmdrcWhraUc5dzBCQVFzRkFEQW4KTVJBd0RnWURWUVFLRXdkQlYxTWdSVXRUTVJNd0VRWURWUVFERXdwcmRXSmxjbTVsZEdWek1CNFhEVEkyTURreQpNakEyTWpNeE1Wb1hEVE14TURreU1UQTJNak14TVZvd0p6RVFNQTRHQTFVRUNoTUhRVmRUSUVWTFV6RVRNQkVHCkExVUVBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUIKQUpHS21qVS9QMk4weVVsNTZqYmNtVkZMTmQzUXZuWHd3K0tlN01zT0dVUzVFdkxGQXZNcUg3ellkem5ISUx6OQplcExUTVQ2aGh3YUl3OHp5c3p4b05HSFFCUnZvdGdiNUFtUW5NbHhoVmJqVGxBbTdHOUZUNDdMcldHYkZHV3RZCnlkY2czdFEvOEt2L1JIY2VrL2pUS0RTODNwZ2N2d2ovMGZIbkVEMmo5VSt0Zytka2pCU1hXbjh1M3pEMXJsc1YKVWV1RUdXUWhaQzA2ZzdpcGhTN2tMd2xaQjRhSUl4ZDVic0dBS0tCSWt0QnVPdXZRMGFjbGlNQUx0dWhQY3VjeQpNeUw2cmpYMk9SL1JYNThnRDU2MHRsY1orMDRoQ3JUaC9VV2tlcENGV2FEUTVnalBIOExDRTV3OGVMQkRYZmNFCmxqcGFkekhBODNIcTlOczl4ajFaUGw4Q0F3RUFBYU5aTUZjd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWQKRXdFQi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZIeFZ3RGs1YTlqcjU3R1Naci9INHNVT204SnBNQlVHQTFVZApFUVFPTUF5Q0NtdDFZbVZ5Ym1WMFpYTXdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBSS9KSU96SHl6d3owVmx5CmJEb3dDdWd1aHM4U2tQa3YyeHdtSEZ3ZmwyRVBSZTY4WGUyNXJCNmNLTWtieDVjeTVVdEJTTUVjQy9Oc3hXNGkKSHNVL2NmNHk3REJWRy9oSk41dEdlYXVIcXR2dUZreEZIbUl0aWR6b0xCbXliTXhZeUJoZDlNZXhia1kvT2lCcgo1RUVENFRndHBkekdjTDF3QmhvenhKMEEzYS80MWdxNHJKUVduRE9XT2VZVFgyZk54Y29lRjRQQ1crejRyc3VWCmQ1WlBHYmo0dmtKVHZyRmNoYkhJT3BLU0ppa1lVSFNPZnB6WmNhc2s1TkFwOVljODk3ZURDQ1RKQXhFU0VNQmoKQVB3Mk1zRUJnN1EyZzJXT3FSdzR1Tld2SnU1N2lSalo4bTJFUFFNYWNQRGVibmlzS1VTQlR5ZW85WVhpcGt2bQo2Z3U5Q3pJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg=="
+                "data": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURNVENDQWhtZ0F3SUJBZ0lRR01MUEYzWmlra1VSTXJPV0tRb1I3VEFOQmdrcWhraUc5dzBCQVFzRkFEQW4KTVJBd0RnWURWUVFLRXdkQlYxTWdSVXRUTVJNd0VRWURWUVFERXdwcmRXSmxjbTVsZEdWek1CNFhEVEkyTURreQpNakEwTlRZd09Gb1hEVE14TURreU1UQTBOVFl3T0Zvd0p6RVFNQTRHQTFVRUNoTUhRVmRUSUVWTFV6RVRNQkVHCkExVUVBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUIKQU1pamk2aDAyN09hUnE1amg0OHhFRzRlaE5hZnliVmJvdmkyRlVGUnNaOEdLZ0NaWWtvZmYvZU5jRzZsY1pSVApXVDNBemMwVk5GYVNqU3ZDTVRXQUJMMit0cm50TStkVWljV1BYaWFBSXRza2RqcVp5Zmh3OUFJVE5OeGZJSmVhCnpPUXFBUzV4K1VjMUhWSG5VN2gyaFVXNi91eTBQVmVxLys4NHZJbDlYVnZYcDRyVUdQaTJ1YU0zUytBa1JoVk8Kd0t1RWZ3ZjIyRndFQktVY1QvQWZMSVRBNitWNmk5eTUyS0s3a1hsT2M3U3lTbEFjMWZQZjlVV1BqQ2JzbG14ZQpqYk9lRVdwYnRYeUxaSzBNeURHOU1FNm84QlJ2Rnc0VkQ3M2RlNGk4L0I0UXpyZGM2NnlpZDduSkJtRmtWa2c2ClJhUmIzUzdGYlkwVFBnWjkxWkhjTnVjQ0F3RUFBYU5aTUZjd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWQKRXdFQi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZDMjhoRlc4UTNjaVR3ZjhKZy8wUVFQMzE1RFhNQlVHQTFVZApFUVFPTUF5Q0NtdDFZbVZ5Ym1WMFpYTXdEUVlKS29aSWh2Y05BUUVMQlFBRGdnRUJBRFU5OE9qME1SVWJIVytmCmJ0UEtmbUtLWHVnT0ZabWd5UmlRQUQ3MzhNN2cxcFBnblZscnVoUlRxZ2I3YkVMdk1veFRQRE83YXUyZE1BemYKQmNnRXQ3YzQyR2cveG9vSGpWeXhNdFBNMmpPTWZjU2x2WHVIdVFjMlV1MFpiK0pDOHdOUzNENHNneG5qNUJORApXZlFOSWY0MUUybFhyM2QycTNuNldLTkJCcWY3NXQxbWVQalRGZkZsQmwxZlNjM0VLZ2xyY2Z4T2w5LytmZjE2CkpYaXE3Y0d6ZGlTblp1WjNQdngvNUhiVWtxQnEybkpRMmFYd1ZHM0lqakQ5TGhhb3hEemc0SW9rMmZveEEyQnMKeDd5ZEpUeHkyY3pYTElFREV0c1IzeWpxajVZOVdGbDZDM0xncW5HSDBUU0Z5WDdIWnYrYkg4UkJObFVmbkIveQpkNlRKZWd3PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg=="
               }
             ],
             "cluster_id": null,
             "compute_config": [],
-            "created_at": "2026-09-22T06:22:59Z",
-            "enabled_cluster_log_types": null,
+            "created_at": "2026-09-22T04:55:58Z",
+            "enabled_cluster_log_types": [],
             "encryption_config": [],
-            "endpoint": "https://0C68FB07384D850E35D4A1982C62004B.gr7.us-east-1.eks.amazonaws.com",
+            "endpoint": "https://6985E70EC6BD7A43DA2756EEEDE06E1F.gr7.us-east-1.eks.amazonaws.com",
             "force_update_version": null,
             "id": "cluster",
             "identity": [
               {
                 "oidc": [
                   {
-                    "issuer": "https://oidc.eks.us-east-1.amazonaws.com/id/0C68FB07384D850E35D4A1982C62004B"
+                    "issuer": "https://oidc.eks.us-east-1.amazonaws.com/id/6985E70EC6BD7A43DA2756EEEDE06E1F"
                   }
                 ]
               }
@@ -373,7 +373,7 @@
             "role_arn": "arn:aws:iam::453722413028:role/eks_cluster_role",
             "status": "ACTIVE",
             "storage_config": [],
-            "tags": null,
+            "tags": {},
             "tags_all": {},
             "timeouts": null,
             "upgrade_policy": [
@@ -384,109 +384,24 @@
             "version": "1.35",
             "vpc_config": [
               {
-                "cluster_security_group_id": "sg-00f5287632332532a",
+                "cluster_security_group_id": "sg-00834472af2415aaa",
                 "endpoint_private_access": true,
                 "endpoint_public_access": true,
                 "public_access_cidrs": [
                   "0.0.0.0/0"
                 ],
-                "security_group_ids": null,
+                "security_group_ids": [],
                 "subnet_ids": [
-                  "subnet-025043e4f2365e8a4",
-                  "subnet-04e30e7398b004009"
+                  "subnet-0362df99e4987a8d9",
+                  "subnet-0d01ba775e2ed4b66"
                 ],
-                "vpc_id": "vpc-03619c138ef24c568"
+                "vpc_id": "vpc-0dc3fd0fffd7a860f"
               }
             ],
             "zonal_shift_config": []
           },
           "sensitive_attributes": [],
-          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjkwMDAwMDAwMDAwMCwidXBkYXRlIjozNjAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIxIn0=",
-          "dependencies": [
-            "aws_iam_role.eks_cluster",
-            "aws_iam_role_policy_attachment.eks_cluster",
-            "aws_iam_role_policy_attachment.eks_service",
-            "aws_subnet.private_subnet",
-            "aws_subnet.public_subnet"
-          ]
-        }
-      ]
-    },
-    {
-      "mode": "managed",
-      "type": "aws_eks_node_group",
-      "name": "main",
-      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
-      "instances": [
-        {
-          "schema_version": 0,
-          "attributes": {
-            "ami_type": "AL2023_x86_64_STANDARD",
-            "arn": "arn:aws:eks:us-east-1:453722413028:nodegroup/cluster/udacity/28d063ea-1546-dddf-c5aa-4247cd2d5eb3",
-            "capacity_type": "ON_DEMAND",
-            "cluster_name": "cluster",
-            "disk_size": 20,
-            "force_update_version": null,
-            "id": "cluster:udacity",
-            "instance_types": [
-              "t3.small"
-            ],
-            "labels": null,
-            "launch_template": [],
-            "node_group_name": "udacity",
-            "node_group_name_prefix": "",
-            "node_repair_config": [],
-            "node_role_arn": "arn:aws:iam::453722413028:role/udacity-node-group",
-            "release_version": "1.35.8-20260917",
-            "remote_access": [],
-            "resources": [
-              {
-                "autoscaling_groups": [
-                  {
-                    "name": "eks-udacity-28d063ea-1546-dddf-c5aa-4247cd2d5eb3"
-                  }
-                ],
-                "remote_access_security_group_id": ""
-              }
-            ],
-            "scaling_config": [
-              {
-                "desired_size": 1,
-                "max_size": 1,
-                "min_size": 1
-              }
-            ],
-            "status": "ACTIVE",
-            "subnet_ids": [
-              "subnet-04e30e7398b004009"
-            ],
-            "tags": null,
-            "tags_all": {},
-            "taint": [],
-            "timeouts": null,
-            "update_config": [
-              {
-                "max_unavailable": 1,
-                "max_unavailable_percentage": 0
-              }
-            ],
-            "version": "1.35"
-          },
-          "sensitive_attributes": [],
-          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozNjAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInVwZGF0ZSI6MzYwMDAwMDAwMDAwMH19",
-          "dependencies": [
-            "aws_eks_cluster.main",
-            "aws_iam_role.eks_cluster",
-            "aws_iam_role.node_group",
-            "aws_iam_role_policy_attachment.cni_policy",
-            "aws_iam_role_policy_attachment.ecr_policy",
-            "aws_iam_role_policy_attachment.eks_cluster",
-            "aws_iam_role_policy_attachment.eks_service",
-            "aws_iam_role_policy_attachment.node_group_policy",
-            "aws_subnet.private_subnet",
-            "aws_subnet.public_subnet",
-            "data.aws_ssm_parameter.eks_ami_release_version"
-          ]
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjkwMDAwMDAwMDAwMCwidXBkYXRlIjozNjAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIxIn0="
         }
       ]
     },
@@ -513,7 +428,7 @@
             "name": "codebuild-role",
             "name_prefix": "",
             "path": "/",
-            "permissions_boundary": "",
+            "permissions_boundary": null,
             "tags": {},
             "tags_all": {},
             "unique_id": "AROAWTI7WS7SCOK7AENZK"
@@ -547,7 +462,7 @@
             "name": "eks_cluster_role",
             "name_prefix": "",
             "path": "/",
-            "permissions_boundary": "",
+            "permissions_boundary": null,
             "tags": {},
             "tags_all": {},
             "unique_id": "AROAWTI7WS7SGD3PUA5ON"
@@ -582,7 +497,7 @@
             "name": "udacity-node-group",
             "name_prefix": "",
             "path": "/",
-            "permissions_boundary": "",
+            "permissions_boundary": null,
             "tags": {},
             "tags_all": {},
             "unique_id": "AROAWTI7WS7SCM33VMJ6W"
@@ -738,7 +653,7 @@
             "id": "github-action-user",
             "name": "github-action-user",
             "path": "/",
-            "permissions_boundary": "",
+            "permissions_boundary": null,
             "tags": {},
             "tags_all": {},
             "unique_id": "AIDAWTI7WS7SJGU3BAKYP"
@@ -759,7 +674,7 @@
           "attributes": {
             "id": "github-action-user:terraform-20260922053708088500000001",
             "name": "terraform-20260922053708088500000001",
-            "name_prefix": "terraform-",
+            "name_prefix": null,
             "policy": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":[\"iam:GetUser\",\"eks:*\",\"ecr:*\",\"ec2:*\"],\"Effect\":\"Allow\",\"Resource\":\"*\",\"Sid\":\"\"}]}",
             "user": "github-action-user"
           },
@@ -943,7 +858,7 @@
             "cidr_block": "10.0.2.0/24",
             "customer_owned_ipv4_pool": "",
             "enable_dns64": false,
-            "enable_lni_at_device_index": 0,
+            "enable_lni_at_device_index": null,
             "enable_resource_name_dns_a_record_on_launch": false,
             "enable_resource_name_dns_aaaa_record_on_launch": false,
             "id": "subnet-025043e4f2365e8a4",
@@ -988,7 +903,7 @@
             "cidr_block": "10.0.1.0/24",
             "customer_owned_ipv4_pool": "",
             "enable_dns64": false,
-            "enable_lni_at_device_index": 0,
+            "enable_lni_at_device_index": null,
             "enable_resource_name_dns_a_record_on_launch": false,
             "enable_resource_name_dns_aaaa_record_on_launch": false,
             "id": "subnet-04e30e7398b004009",
@@ -1058,6 +973,34 @@
           "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
         }
       ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_vpc_endpoint",
+      "name": "ec2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": []
+    },
+    {
+      "mode": "managed",
+      "type": "aws_vpc_endpoint",
+      "name": "ecr-api-endpoint",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": []
+    },
+    {
+      "mode": "managed",
+      "type": "aws_vpc_endpoint",
+      "name": "ecr-dkr-endpoint",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": []
+    },
+    {
+      "mode": "managed",
+      "type": "aws_vpc_endpoint",
+      "name": "eks",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": []
     }
   ],
   "check_results": null
